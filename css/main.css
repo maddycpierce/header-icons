@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  font-style: Merriweather, serif;
+  background-color: #d05c2e;
+  text-align: center;
+}
+
+h1 {
+  text-size: 2rem;
+  color: #fff;
+  margin: 0 0 .7rem;
+  padding: .5em 0 0;
+}
+
+nav {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  text-align: center;
+  padding: 0;
+  color: #fff;
+  padding: .4rem 0;
+  margin: .3rem;
+}
+
+a:hover {
+  background-color: #a63f38;
+}
