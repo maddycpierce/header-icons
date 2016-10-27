@@ -13,32 +13,61 @@ body {
 }
 
 header {
-  font-style: Merriweather, serif;
+  font-family: Merriweather, serif;
   background-color: #d05c2e;
   text-align: center;
 }
 
 h1 {
-  text-size: 2rem;
+  font-size: 2rem;
   color: #fff;
   margin: 0 0 .7rem;
   padding: .5em 0 0;
-}
-
-nav {
-  list-style: none;
+  font-weight: bold;
 }
 
 nav a {
   text-decoration: none;
   font-size: 1.125rem;
   text-align: center;
-  padding: 0;
   color: #fff;
   padding: .4rem 0;
-  margin: .3rem;
 }
 
 a:hover {
   background-color: #a63f38;
+}
+
+.home {
+  float: left;
+  width: 50%;
+  border: 3px solid #a63f38;
+}
+
+.cereals {
+  float: left;
+  width: 50%;
+  border: 3px solid #a63f38;
+}
+
+.legumes {
+  float: right;
+  border: 3px solid #a63f38;
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.left {
+  float: left;
+  width: 10%;
+}
+
+.right {
+  float: right;
+  width: 10%;
 }
